@@ -9,7 +9,7 @@ means limited to these applications).
 This package provides the Jade DSSSL stylesheets.
 
 Build requirements:
-  cygport-0.9.10-1
+  cygport-0.9.80-1
 
 Canonical website:
   http://docbook.org/
@@ -37,6 +37,12 @@ command-line: 'cygcheck -l docbook-dsssl'.
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.79-2 -----
+Includes patch from Debian to fix this error from jade:
+
+print/dbrfntry.dsl:83:3:E: flow objects at the root must be all of class 
+scroll or all of class page-sequence or simple-page-sequence
 
 ----- version 1.79-1 -----
 Initial release for Cygwin 1.7.

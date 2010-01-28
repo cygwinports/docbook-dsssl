@@ -1,0 +1,4 @@
+inherit docbook
+
+
+PATCH_URI+=" http://patch-tracker.debian.org/patch/series/dl/docbook-dsssl/1.79-6/refentry-flow-objects.patch"
